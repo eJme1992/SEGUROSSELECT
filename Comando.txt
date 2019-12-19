@@ -1,5 +1,4 @@
-<?php 
-      
+     
       3. Crear modelo y migración
 
          Crear el modelo Role con su respectiva migración (utilizar el parámetro -m):
@@ -15,4 +14,4 @@
       php artisan make:model Permission -m
 
 
-php artisan make:controller PhotoController --resource
+      php artisan make:controller PhotoController --resource
