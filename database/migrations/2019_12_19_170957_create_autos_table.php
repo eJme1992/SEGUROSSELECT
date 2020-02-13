@@ -13,13 +13,18 @@ class CreateAutosTable extends Migration {
 	public function up() {
 		Schema::create('autos', function (Blueprint $table) {
 			$table->bigIncrements('id');
-			$table->string('code_marca');
-			$table->string('code_modelo');
-			$table->string('code_vehiculo');
 			$table->string('id_vehiculo');
 			$table->string('name');
+			$table->string('code_vehiculo');
+			$table->string('code_marca');
+			$table->string('code_modelo');		
 			$table->string('cerokm');
 			$table->timestamps();
+
+	
+
+
+
 		});
 	}
 
