@@ -44,4 +44,4 @@ Route::get('getestados/{ano}/{code_marca}/{code_modelo}', 'AutoController@GetEst
 Route::get('getprovincia', 'ProvinciaController@GetProvincia');
 Route::get('getciudades/{code}', 'CityController@GetCiudades');
 
-Route::get('apiprueba', 'RequestController@GetConfiguration');
+Route::get('apiprueba', 'RequestController@Conexion');
